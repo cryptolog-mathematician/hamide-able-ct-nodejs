@@ -1,0 +1,17 @@
+{
+  "name": "commerd-tech-v0-mailsender",
+  "version": "1.0.0",
+  "description": "this is for to send email from user to commerd-tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bay.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gmail-send": "^1.8.10"
+  }
+}
