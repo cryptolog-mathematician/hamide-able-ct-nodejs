@@ -8,7 +8,7 @@ const options = {
 
 const sendEmail = async function(person){
   try {
-    options.to = 'hamide.bay79@gmail.com';
+    options.to = 'mustafa.erdogan.comerd@gmail.com';
     options.subject = 'yeni talep';
     options.text = `${person.username},\n\n
     ${person.messageText}\n
