@@ -10,7 +10,7 @@ app.use( bodyParser.json() );       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({ extended: true}));     // to support URL-encoded bodies
 app.use(express.urlencoded({ extended: true }));
 
-app.listen(3000);
+app.listen(3001);
 
 app.get('/', (req, res)=> {
     res.send('mesaj was sent');

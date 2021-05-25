@@ -2,13 +2,13 @@ const send = require('gmail-send')({});
 //google hesabindan az guvenilir app ler icin izin ver aktiflestirmen lazim
 //settings > security de
 const options = {
-  user: 'cryptogramer.cp@gmail.com',  // gmail user
-  pass: 'Cryptog-ramer-cp'   // gmail password
+  user: 'hamide.bay79@gmail.com',  // gmail user
+  pass: '229030baY'   // gmail password
 };
 
 const sendEmail = async function(person){
   try {
-    options.to = 'irfan.simsek.gop@gmail.com';
+    options.to = 'hamide.bay79@gmail.com';
     options.subject = 'yeni talep';
     options.text = `${person.username},\n\n
     ${person.messageText}\n
