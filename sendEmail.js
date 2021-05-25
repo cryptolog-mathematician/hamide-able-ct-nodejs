@@ -2,8 +2,8 @@ const send = require('gmail-send')({});
 //google hesabindan az guvenilir app ler icin izin ver aktiflestirmen lazim
 //settings > security de
 const options = {
-  user: 'hamide.bay79@gmail.com',  // gmail user
-  pass: '229030baY'   // gmail password
+  user: 'mustafa.erdogan.comerd@gmail.com',  // gmail user
+  pass: 'comerd-tech'   // gmail password
 };
 
 const sendEmail = async function(person){
